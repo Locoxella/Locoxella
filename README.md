@@ -129,15 +129,15 @@ My journey started in 1998 as a developer, crafting interactive CDs and web appl
   <table border="0">
     <tr>
       <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=locoxella&show_icons=true&theme=nord&bg_color=001F3F,003366&title_color=00bcd4&text_color=ffffff&icon_color=00bcd4&border_color=00bcd4&hide_border=false" width="100%" alt="GitHub Stats" />
+        <img src="https://github-readme-stats-fast.vercel.app/api?username=Locoxella&show_icons=true&bg_color=001F3F,003366&title_color=00bcd4&text_color=ffffff&icon_color=00bcd4&border_color=00bcd4&hide_border=false" width="100%" alt="GitHub Stats" />
       </td>
       <td width="50%" align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=locoxella&layout=compact&theme=nord&bg_color=001F3F,003366&title_color=00bcd4&text_color=ffffff&border_color=00bcd4&hide_border=false" width="100%" alt="Top Languages" />
+        <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Locoxella&layout=compact&bg_color=001F3F,003366&title_color=00bcd4&text_color=ffffff&border_color=00bcd4&hide_border=false" width="100%" alt="Top Languages" />
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=locoxella&theme=nord&background=001F3F&ring=00bcd4&fire=00bcd4&currStreakNum=ffffff&sideNums=ffffff&sideLabels=00bcd4&dates=a0aec0&border=00bcd4&hide_border=false" width="100%" alt="Streak Stats" />
+        <img src="https://streak-stats.demolab.com/?user=Locoxella&background=001F3F&ring=00bcd4&fire=00bcd4&currStreakNum=ffffff&sideNums=ffffff&sideLabels=00bcd4&dates=a0aec0&border=00bcd4&hide_border=false" width="100%" alt="Streak Stats" />
       </td>
     </tr>
   </table>
