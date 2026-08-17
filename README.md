@@ -81,7 +81,7 @@ My journey began in 1998 as a developer building web applications and content en
 ### 📚 DevOps & Engineering Reading Showcase
 
 <div align="center">
-  <img src="reading-list-v2.svg" width="100%" alt="Engineering Reading Showcase" />
+  <img src="reading-list-718f1e2b.svg" width="100%" alt="Engineering Reading Showcase" />
 </div>
 
 ---
