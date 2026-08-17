@@ -78,48 +78,10 @@ My journey began in 1998 as a developer building web applications and content en
 
 ---
 
-### 📚 DevOps & Engineering Reading Showcase
-
-<div align="center">
-  <img src="reading-list-3e0b96e6.svg" width="100%" alt="Engineering Reading Showcase" />
-</div>
-
----
-
 ### 🛠️ Tech Ecosystem
 
 <div align="center">
-
-#### 🔹 Cloud Platforms & Containers
-<p>
-  <img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" />
-  <img src="https://img.shields.io/badge/Oracle_Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white" />
-</p>
-
-#### 🔹 Infrastructure as Code & CI/CD
-<p>
-  <img src="https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenTofu-FFDA00?style=for-the-badge&logo=opentofu&logoColor=black" />
-  <img src="https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white" />
-  <img src="https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" />
-</p>
-
-#### 🔹 Scripting, Databases & Systems
-<p>
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-</p>
-
+  <img src="tech-ecosystem-93d715d2.svg" width="100%" alt="Tech Ecosystem" />
 </div>
 
 ---
@@ -149,6 +111,14 @@ My journey began in 1998 as a developer building web applications and content en
   <!-- VISITORS COUNTER -->
   <img src="https://komarev.com/ghpvc/?username=locoxella&label=PROFILE+VIEWS&color=00bcd4&style=flat-square" alt="Visitor Count" />
 
+</div>
+
+---
+
+### 📚 DevOps & Engineering Reading Showcase
+
+<div align="center">
+  <img src="reading-list-942827e0.svg" width="100%" alt="Engineering Reading Showcase" />
 </div>
 
 ---
