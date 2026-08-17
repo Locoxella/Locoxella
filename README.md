@@ -73,7 +73,7 @@ My journey began in 1998 as a developer building web applications and content en
 ### 🌲 Career Timeline Tree (20+ Years Journey)
 
 <div align="center">
-  <img src="timeline-tree.svg" width="100%" alt="Career Timeline Tree" />
+  <img src="timeline-tree-v2.svg" width="100%" alt="Career Timeline Tree" />
 </div>
 
 ---
@@ -81,7 +81,7 @@ My journey began in 1998 as a developer building web applications and content en
 ### 📚 DevOps & Engineering Reading Showcase
 
 <div align="center">
-  <img src="reading-list.svg" width="100%" alt="Engineering Reading Showcase" />
+  <img src="reading-list-v2.svg" width="100%" alt="Engineering Reading Showcase" />
 </div>
 
 ---
@@ -156,7 +156,7 @@ My journey began in 1998 as a developer building web applications and content en
 ### 📊 GitHub Activity & Metrics
 
 <div align="center">
-  <img src="github-stats.svg" width="100%" alt="GitHub Activity and Metrics" />
+  <img src="github-stats-v2.svg" width="100%" alt="GitHub Activity and Metrics" />
 </div>
 
 ---
