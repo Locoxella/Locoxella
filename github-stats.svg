@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 200" width="100%" height="100%">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&amp;family=Fira+Code:wght@500;600&amp;display=swap');
+      .card-title { font-family: 'Space Grotesk', sans-serif; font-size: 16px; font-weight: 700; fill: #00BCD4; }
+      .stat-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 13px; fill: #F5F5F7; font-weight: 500; }
+      .stat-val { font-family: 'Fira Code', monospace; font-size: 13px; fill: #00BCD4; font-weight: 700; }
+      .lang-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 12px; fill: #B7B7BC; }
+      .lang-pct { font-family: 'Fira Code', monospace; font-size: 12px; fill: #F5F5F7; font-weight: 600; }
+      .card-box { fill: #0B0B0D; stroke: #1F2937; stroke-width: 1.2; rx: 10px; }
+      .card-glow { fill: none; stroke: #00BCD4; stroke-width: 1; opacity: 0.3; rx: 10px; }
+    </style>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111114" />
+      <stop offset="100%" stop-color="#0B0B0D" />
+    </linearGradient>
+  </defs>
+
+  <!-- BACKGROUND -->
+  <rect width="100%" height="100%" fill="transparent" />
+
+  <!-- LEFT CARD: GITHUB STATS -->
+  <g transform="translate(0, 5)">
+    <rect x="0" y="0" width="425" height="190" class="card-box" fill="url(#cardGrad)" />
+    <rect x="0" y="0" width="425" height="190" class="card-glow" />
+    <text x="25" y="32" class="card-title">Leon Alvarez's GitHub Telemetry</text>
+
+    <!-- Stats Rows -->
+    <g transform="translate(25, 60)">
+      <circle cx="6" cy="0" r="4" fill="#00BCD4" />
+      <text x="20" y="4" class="stat-label">Public Repositories</text>
+      <text x="375" y="4" text-anchor="end" class="stat-val">13</text>
+    </g>
+    <g transform="translate(25, 92)">
+      <circle cx="6" cy="0" r="4" fill="#00BCD4" />
+      <text x="20" y="4" class="stat-label">Enterprise Contributions</text>
+      <text x="375" y="4" text-anchor="end" class="stat-val">Active</text>
+    </g>
+    <g transform="translate(25, 124)">
+      <circle cx="6" cy="0" r="4" fill="#00BCD4" />
+      <text x="20" y="4" class="stat-label">Multi-Cloud IaC Workflows</text>
+      <text x="375" y="4" text-anchor="end" class="stat-val">Azure / AWS</text>
+    </g>
+    <g transform="translate(25, 156)">
+      <circle cx="6" cy="0" r="4" fill="#00BCD4" />
+      <text x="20" y="4" class="stat-label">Operational Track Record</text>
+      <text x="375" y="4" text-anchor="end" class="stat-val">20+ Years</text>
+    </g>
+  </g>
+
+  <!-- RIGHT CARD: MOST USED LANGUAGES -->
+  <g transform="translate(455, 5)">
+    <rect x="0" y="0" width="425" height="190" class="card-box" fill="url(#cardGrad)" />
+    <rect x="0" y="0" width="425" height="190" class="card-glow" />
+    <text x="25" y="32" class="card-title">Top Languages &amp; Core Stacks</text>
+
+    <g transform="translate(25, 60)">
+      <circle cx="6" cy="0" r="4" fill="#3776AB" />
+      <text x="20" y="4" class="lang-name">Python</text>
+      <!-- Progress Bar -->
+      <rect x="170" y="-6" width="160" height="8" rx="4" fill="#1A2634" />
+      <rect x="170" y="-6" width="53" height="8" rx="4" fill="#3776AB" />
+      <text x="375" y="4" text-anchor="end" class="lang-pct">33.3%</text>
+    </g>
+    <g transform="translate(25, 90)">
+      <circle cx="6" cy="0" r="4" fill="#012456" />
+      <text x="20" y="4" class="lang-name">PowerShell</text>
+      <!-- Progress Bar -->
+      <rect x="170" y="-6" width="160" height="8" rx="4" fill="#1A2634" />
+      <rect x="170" y="-6" width="35" height="8" rx="4" fill="#012456" />
+      <text x="375" y="4" text-anchor="end" class="lang-pct">22.2%</text>
+    </g>
+    <g transform="translate(25, 120)">
+      <circle cx="6" cy="0" r="4" fill="#89E051" />
+      <text x="20" y="4" class="lang-name">Shell</text>
+      <!-- Progress Bar -->
+      <rect x="170" y="-6" width="160" height="8" rx="4" fill="#1A2634" />
+      <rect x="170" y="-6" width="35" height="8" rx="4" fill="#89E051" />
+      <text x="375" y="4" text-anchor="end" class="lang-pct">22.2%</text>
+    </g>
+    <g transform="translate(25, 150)">
+      <circle cx="6" cy="0" r="4" fill="#000080" />
+      <text x="20" y="4" class="lang-name">Lua</text>
+      <!-- Progress Bar -->
+      <rect x="170" y="-6" width="160" height="8" rx="4" fill="#1A2634" />
+      <rect x="170" y="-6" width="17" height="8" rx="4" fill="#000080" />
+      <text x="375" y="4" text-anchor="end" class="lang-pct">11.1%</text>
+    </g>
+    <g transform="translate(25, 180)">
+      <circle cx="6" cy="0" r="4" fill="#009639" />
+      <text x="20" y="4" class="lang-name">Nginx</text>
+      <!-- Progress Bar -->
+      <rect x="170" y="-6" width="160" height="8" rx="4" fill="#1A2634" />
+      <rect x="170" y="-6" width="17" height="8" rx="4" fill="#009639" />
+      <text x="375" y="4" text-anchor="end" class="lang-pct">11.1%</text>
+    </g>
+  </g>
+</svg>

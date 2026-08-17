@@ -126,15 +126,7 @@ My journey started in 1998 as a developer, crafting interactive CDs and web appl
 ### 📊 GitHub Activity & Metrics
 
 <div align="center">
-
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=Locoxella&show_icons=true&bg_color=001F3F,003366&title_color=00bcd4&text_color=ffffff&icon_color=00bcd4&border_color=00bcd4&hide_border=false" height="175" alt="GitHub Stats" />
-  &nbsp;
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Locoxella&layout=compact&bg_color=001F3F,003366&title_color=00bcd4&text_color=ffffff&border_color=00bcd4&hide_border=false" height="175" alt="Top Languages" />
-
-  <br/><br/>
-
-  <img src="https://streak-stats.demolab.com?user=Locoxella&theme=nord&background=001F3F&ring=00bcd4&fire=00bcd4&currStreakNum=ffffff&sideNums=ffffff&sideLabels=00bcd4&dates=a0aec0&border=00bcd4&hide_border=false" alt="Streak Stats" />
-
+  <img src="github-stats.svg" width="100%" alt="GitHub Activity and Metrics" />
 </div>
 
 ---
