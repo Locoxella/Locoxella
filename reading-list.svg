@@ -1,22 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 200" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 280" width="100%" height="100%">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&amp;family=Fira+Code:wght@500;600&amp;display=swap');
-      .shelf-title { font-family: 'Space Grotesk', sans-serif; font-size: 15px; font-weight: 700; fill: #00BCD4; }
-      .book-title { font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 700; fill: #F5F5F7; }
-      .book-author { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 11px; fill: #00BCD4; font-weight: 600; }
-      .book-desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 10.5px; fill: #B7B7BC; }
-      .tag-pill { font-family: 'Fira Code', monospace; font-size: 9.5px; fill: #001F3F; font-weight: 700; }
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700;800&amp;family=Fira+Code:wght@500;700&amp;display=swap');
       
-      .book-card { fill: #0B0B0D; stroke: #1F2937; stroke-width: 1.2; rx: 8px; }
-      .book-accent { fill: none; stroke: #00BCD4; stroke-width: 1; opacity: 0.35; rx: 8px; }
+      .book-box {{ fill: #0B0B0D; stroke: #1F2937; stroke-width: 1.2; rx: 8px; }}
+      .book-glow {{ fill: none; stroke: #00BCD4; stroke-width: 1; opacity: 0.3; rx: 8px; }}
       
-      /* Subtle pulse on book spines */
-      @keyframes spineGlow {
-        0%, 100% { opacity: 0.8; }
-        50% { opacity: 1; }
-      }
-      .spine { animation: spineGlow 3s ease-in-out infinite; }
+      .cover-title {{ font-family: 'Space Grotesk', sans-serif; font-size: 13px; font-weight: 800; text-anchor: middle; }}
+      .cover-sub {{ font-family: 'Space Grotesk', sans-serif; font-size: 8.5px; font-weight: 600; text-anchor: middle; }}
+      .cover-author {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 8px; font-weight: 600; text-anchor: middle; }}
+      
+      .info-title {{ font-family: 'Space Grotesk', sans-serif; font-size: 14px; font-weight: 700; fill: #F5F5F7; }}
+      .info-author {{ font-family: 'Fira Code', monospace; font-size: 10.5px; fill: #00BCD4; font-weight: 600; }}
+      .info-desc {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 11px; fill: #B7B7BC; }}
+      .tag-badge {{ font-family: 'Fira Code', monospace; font-size: 9px; font-weight: 700; fill: #001F3F; }}
+      
+      /* Sliding carousel animation */
+      @keyframes smoothCarousel {{
+        0%, 20% {{ transform: translateX(0px); }}
+        25%, 45% {{ transform: translateX(-230px); }}
+        50%, 70% {{ transform: translateX(-460px); }}
+        75%, 95% {{ transform: translateX(-690px); }}
+        100% {{ transform: translateX(0px); }}
+      }}
+      
+      .carousel-track {{
+        animation: smoothCarousel 20s cubic-bezier(0.77, 0, 0.175, 1) infinite;
+      }}
+      .carousel-track:hover {{
+        animation-play-state: paused;
+      }}
     </style>
 
     <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -24,98 +37,181 @@
       <stop offset="100%" stop-color="#0B0B0D" />
     </linearGradient>
 
-    <!-- Gradients for book spines -->
-    <linearGradient id="phoenixSpine" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#E85D04" />
-      <stop offset="100%" stop-color="#D00000" />
+    <!-- PHOENIX PROJECT COVER GRADIENT -->
+    <linearGradient id="phoenixCover" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A1A24" />
+      <stop offset="50%" stop-color="#2B1108" />
+      <stop offset="100%" stop-color="#E85D04" />
     </linearGradient>
 
-    <linearGradient id="goalSpine" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#00BCD4" />
+    <!-- THE GOAL COVER GRADIENT -->
+    <linearGradient id="goalCover" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#001F3F" />
+      <stop offset="60%" stop-color="#003366" />
       <stop offset="100%" stop-color="#0077B5" />
     </linearGradient>
 
-    <linearGradient id="unicornSpine" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#9D4EDD" />
-      <stop offset="100%" stop-color="#5A189A" />
+    <!-- UNICORN PROJECT COVER GRADIENT -->
+    <linearGradient id="unicornCover" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#130720" />
+      <stop offset="50%" stop-color="#3C096C" />
+      <stop offset="100%" stop-color="#9D4EDD" />
     </linearGradient>
 
-    <linearGradient id="handbookSpine" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#2EC4B6" />
-      <stop offset="100%" stop-color="#011627" />
+    <!-- DEVOPS HANDBOOK COVER GRADIENT -->
+    <linearGradient id="handbookCover" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0A192F" />
+      <stop offset="50%" stop-color="#028090" />
+      <stop offset="100%" stop-color="#00A896" />
     </linearGradient>
 
-    <linearGradient id="pillGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="pill1" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00BCD4" />
       <stop offset="100%" stop-color="#39D353" />
     </linearGradient>
   </defs>
 
-  <!-- BACKGROUND -->
   <rect width="100%" height="100%" fill="transparent" />
 
-  <!-- BOOK 1: THE PHOENIX PROJECT -->
-  <g transform="translate(0, 10)">
-    <rect x="0" y="0" width="205" height="175" class="book-card" fill="url(#cardGrad)" />
-    <rect x="0" y="0" width="205" height="175" class="book-accent" />
-    <!-- Book Spine Color Accent -->
-    <rect x="0" y="0" width="6" height="175" fill="url(#phoenixSpine)" rx="3" class="spine" />
+  <!-- 4 CARDS IN GRID (PERFECTLY VISIBLE IN DESKTOP & FLUID) -->
+  <g transform="translate(5, 10)">
     
-    <rect x="18" y="16" width="75" height="18" rx="3" fill="url(#pillGrad)" />
-    <text x="55" y="29" text-anchor="middle" class="tag-pill">DEVOPS CORE</text>
-    
-    <text x="18" y="58" class="book-title">The Phoenix Project</text>
-    <text x="18" y="76" class="book-author">Gene Kim, Kevin Behr</text>
-    <text x="18" y="102" class="book-desc">IT work, DevOps transformation,</text>
-    <text x="18" y="118" class="book-desc">The Three Ways, and</text>
-    <text x="18" y="134" class="book-desc">cross-silo collaboration.</text>
-  </g>
+    <!-- CARD 1: THE PHOENIX PROJECT -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="218" height="255" class="book-box" fill="url(#cardGrad)" />
+      <rect x="0" y="0" width="218" height="255" class="book-glow" />
+      
+      <!-- MINI BOOK COVER -->
+      <g transform="translate(15, 15)">
+        <rect x="0" y="0" width="75" height="110" rx="4" fill="url(#phoenixCover)" stroke="#E85D04" stroke-width="1" />
+        <!-- Flame Graphic -->
+        <circle cx="37.5" cy="45" r="16" fill="#E85D04" fill-opacity="0.3" />
+        <path d="M 37.5 32 Q 43 45 37.5 54 Q 32 45 37.5 32 Z" fill="#FFBA08" />
+        <text x="37.5" y="72" class="cover-title" fill="#FFFFFF">THE</text>
+        <text x="37.5" y="83" class="cover-title" fill="#FFBA08" font-size="10">PHOENIX</text>
+        <text x="37.5" y="93" class="cover-sub" fill="#E85D04">PROJECT</text>
+        <text x="37.5" y="104" class="cover-author" fill="#CCCCCC">GENE KIM</text>
+      </g>
 
-  <!-- BOOK 2: THE GOAL -->
-  <g transform="translate(225, 10)">
-    <rect x="0" y="0" width="205" height="175" class="book-card" fill="url(#cardGrad)" />
-    <rect x="0" y="0" width="205" height="175" class="book-accent" />
-    <rect x="0" y="0" width="6" height="175" fill="url(#goalSpine)" rx="3" class="spine" />
-    
-    <rect x="18" y="16" width="68" height="18" rx="3" fill="#003366" />
-    <text x="52" y="29" text-anchor="middle" class="tag-pill" fill="#00BCD4">THEORY TOC</text>
-    
-    <text x="18" y="58" class="book-title">The Goal</text>
-    <text x="18" y="76" class="book-author">Eliyahu M. Goldratt</text>
-    <text x="18" y="102" class="book-desc">Theory of Constraints (TOC),</text>
-    <text x="18" y="118" class="book-desc">identifying bottlenecks, and</text>
-    <text x="18" y="134" class="book-desc">optimizing flow efficiency.</text>
-  </g>
+      <!-- BOOK METADATA (RIGHT OF COVER) -->
+      <g transform="translate(100, 20)">
+        <rect x="0" y="0" width="80" height="18" rx="3" fill="url(#pill1)" />
+        <text x="40" y="13" text-anchor="middle" class="tag-badge">DEVOPS CORE</text>
+        <text x="0" y="42" class="info-title">The Phoenix</text>
+        <text x="0" y="58" class="info-title">Project</text>
+        <text x="0" y="76" class="info-author">Gene Kim</text>
+        <text x="0" y="90" class="info-author">Kevin Behr</text>
+      </g>
 
-  <!-- BOOK 3: THE UNICORN PROJECT -->
-  <g transform="translate(450, 10)">
-    <rect x="0" y="0" width="205" height="175" class="book-card" fill="url(#cardGrad)" />
-    <rect x="0" y="0" width="205" height="175" class="book-accent" />
-    <rect x="0" y="0" width="6" height="175" fill="url(#unicornSpine)" rx="3" class="spine" />
-    
-    <rect x="18" y="16" width="80" height="18" rx="3" fill="#5A189A" />
-    <text x="58" y="29" text-anchor="middle" class="tag-pill" fill="#ffffff">ARCHITECTURE</text>
-    
-    <text x="18" y="58" class="book-title">The Unicorn Project</text>
-    <text x="18" y="76" class="book-author">Gene Kim</text>
-    <text x="18" y="102" class="book-desc">The Five Ideals: Developer</text>
-    <text x="18" y="118" class="book-desc">Joy, Locality, Simplicity,</text>
-    <text x="18" y="134" class="book-desc">and Focus on Flow.</text>
-  </g>
+      <!-- BOTTOM SUMMARY -->
+      <g transform="translate(15, 140)">
+        <line x1="0" y1="0" x2="188" y2="0" stroke="#1F2937" stroke-width="1" />
+        <text x="0" y="20" class="info-desc">• The Three Ways of DevOps.</text>
+        <text x="0" y="38" class="info-desc">• Breaking cross-silo bottlenecks.</text>
+        <text x="0" y="56" class="info-desc">• IT as a primary business value.</text>
+      </g>
+    </g>
 
-  <!-- BOOK 4: THE DEVOPS HANDBOOK -->
-  <g transform="translate(675, 10)">
-    <rect x="0" y="0" width="205" height="175" class="book-card" fill="url(#cardGrad)" />
-    <rect x="0" y="0" width="205" height="175" class="book-accent" />
-    <rect x="0" y="0" width="6" height="175" fill="url(#handbookSpine)" rx="3" class="spine" />
-    
-    <rect x="18" y="16" width="82" height="18" rx="3" fill="#004080" />
-    <text x="59" y="29" text-anchor="middle" class="tag-pill" fill="#00BCD4">ENGINEERING</text>
-    
-    <text x="18" y="58" class="book-title">The DevOps Handbook</text>
-    <text x="18" y="76" class="book-author">Kim, Humble, Debois, Willis</text>
-    <text x="18" y="102" class="book-desc">World-class reliability, CI/CD</text>
-    <text x="18" y="118" class="book-desc">patterns, telemetry, and fast</text>
-    <text x="18" y="134" class="book-desc">feedback loops.</text>
+    <!-- CARD 2: THE GOAL -->
+    <g transform="translate(228, 0)">
+      <rect x="0" y="0" width="218" height="255" class="book-box" fill="url(#cardGrad)" />
+      <rect x="0" y="0" width="218" height="255" class="book-glow" />
+      
+      <!-- MINI BOOK COVER -->
+      <g transform="translate(15, 15)">
+        <rect x="0" y="0" width="75" height="110" rx="4" fill="url(#goalCover)" stroke="#00BCD4" stroke-width="1" />
+        <!-- Target graphic -->
+        <circle cx="37.5" cy="44" r="16" fill="none" stroke="#00BCD4" stroke-width="1.5" />
+        <circle cx="37.5" cy="44" r="10" fill="none" stroke="#FFFFFF" stroke-width="1.5" />
+        <circle cx="37.5" cy="44" r="4" fill="#00BCD4" />
+        <text x="37.5" y="74" class="cover-title" fill="#FFFFFF">THE</text>
+        <text x="37.5" y="88" class="cover-title" fill="#00BCD4" font-size="14">GOAL</text>
+        <text x="37.5" y="104" class="cover-author" fill="#B7B7BC">GOLDRATT</text>
+      </g>
+
+      <g transform="translate(100, 20)">
+        <rect x="0" y="0" width="70" height="18" rx="3" fill="#003366" />
+        <text x="35" y="13" text-anchor="middle" class="tag-badge" fill="#00BCD4">THEORY TOC</text>
+        <text x="0" y="42" class="info-title">The</text>
+        <text x="0" y="58" class="info-title">Goal</text>
+        <text x="0" y="76" class="info-author">Eliyahu M.</text>
+        <text x="0" y="90" class="info-author">Goldratt</text>
+      </g>
+
+      <g transform="translate(15, 140)">
+        <line x1="0" y1="0" x2="188" y2="0" stroke="#1F2937" stroke-width="1" />
+        <text x="0" y="20" class="info-desc">• Theory of Constraints (TOC).</text>
+        <text x="0" y="38" class="info-desc">• Identifying operational limits.</text>
+        <text x="0" y="56" class="info-desc">• Throughput &amp; flow optimization.</text>
+      </g>
+    </g>
+
+    <!-- CARD 3: THE UNICORN PROJECT -->
+    <g transform="translate(456, 0)">
+      <rect x="0" y="0" width="218" height="255" class="book-box" fill="url(#cardGrad)" />
+      <rect x="0" y="0" width="218" height="255" class="book-glow" />
+      
+      <!-- MINI BOOK COVER -->
+      <g transform="translate(15, 15)">
+        <rect x="0" y="0" width="75" height="110" rx="4" fill="url(#unicornCover)" stroke="#9D4EDD" stroke-width="1" />
+        <!-- Origami Unicorn symbol -->
+        <polygon points="37.5,28 47,46 28,46" fill="#E0AAFF" fill-opacity="0.4" />
+        <polygon points="37.5,28 42,46 33,46" fill="#FFFFFF" />
+        <text x="37.5" y="70" class="cover-title" fill="#FFFFFF">THE</text>
+        <text x="37.5" y="82" class="cover-title" fill="#E0AAFF" font-size="10">UNICORN</text>
+        <text x="37.5" y="92" class="cover-sub" fill="#9D4EDD">PROJECT</text>
+        <text x="37.5" y="104" class="cover-author" fill="#CCCCCC">GENE KIM</text>
+      </g>
+
+      <g transform="translate(100, 20)">
+        <rect x="0" y="0" width="85" height="18" rx="3" fill="#3C096C" />
+        <text x="42.5" y="13" text-anchor="middle" class="tag-badge" fill="#E0AAFF">ARCHITECTURE</text>
+        <text x="0" y="42" class="info-title">The Unicorn</text>
+        <text x="0" y="58" class="info-title">Project</text>
+        <text x="0" y="76" class="info-author">Gene Kim</text>
+        <text x="0" y="90" class="info-author">IT Revolution</text>
+      </g>
+
+      <g transform="translate(15, 140)">
+        <line x1="0" y1="0" x2="188" y2="0" stroke="#1F2937" stroke-width="1" />
+        <text x="0" y="20" class="info-desc">• The Five Ideals of Architecture.</text>
+        <text x="0" y="38" class="info-desc">• Locality &amp; Developer Joy.</text>
+        <text x="0" y="56" class="info-desc">• Psychological Safety &amp; Focus.</text>
+      </g>
+    </g>
+
+    <!-- CARD 4: THE DEVOPS HANDBOOK -->
+    <g transform="translate(684, 0)">
+      <rect x="0" y="0" width="218" height="255" class="book-box" fill="url(#cardGrad)" />
+      <rect x="0" y="0" width="218" height="255" class="book-glow" />
+      
+      <!-- MINI BOOK COVER -->
+      <g transform="translate(15, 15)">
+        <rect x="0" y="0" width="75" height="110" rx="4" fill="url(#handbookCover)" stroke="#00A896" stroke-width="1" />
+        <!-- Infinity Loop symbol for DevOps -->
+        <path d="M 26 44 C 26 38 34 38 37.5 44 C 41 50 49 50 49 44 C 49 38 41 38 37.5 44 C 34 50 26 50 26 44 Z" fill="none" stroke="#02C39A" stroke-width="2" />
+        <text x="37.5" y="70" class="cover-title" fill="#FFFFFF">THE</text>
+        <text x="37.5" y="81" class="cover-title" fill="#02C39A" font-size="9">DEVOPS</text>
+        <text x="37.5" y="92" class="cover-sub" fill="#05668D">HANDBOOK</text>
+        <text x="37.5" y="104" class="cover-author" fill="#CCCCCC">KIM / HUMBLE</text>
+      </g>
+
+      <g transform="translate(100, 20)">
+        <rect x="0" y="0" width="85" height="18" rx="3" fill="#003366" />
+        <text x="42.5" y="13" text-anchor="middle" class="tag-badge" fill="#00BCD4">ENGINEERING</text>
+        <text x="0" y="42" class="info-title">The DevOps</text>
+        <text x="0" y="58" class="info-title">Handbook</text>
+        <text x="0" y="76" class="info-author">Kim, Humble</text>
+        <text x="0" y="90" class="info-author">Debois, Willis</text>
+      </g>
+
+      <g transform="translate(15, 140)">
+        <line x1="0" y1="0" x2="188" y2="0" stroke="#1F2937" stroke-width="1" />
+        <text x="0" y="20" class="info-desc">• Continuous Delivery &amp; CI/CD.</text>
+        <text x="0" y="38" class="info-desc">• Telemetry &amp; feedback loops.</text>
+        <text x="0" y="56" class="info-desc">• Enterprise-scale resilience.</text>
+      </g>
+    </g>
+
   </g>
 </svg>
