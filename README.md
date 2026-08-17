@@ -29,6 +29,10 @@ profile:
   title: "DevOps & Software Engineer"
   enterprise_brand: "Soluciones Austral"
   core_philosophy: "Infrastructure as craft. Clean architecture, automation, and operational resilience."
+  languages:
+    - "Spanish (Native)"
+    - "English (Fluent / Professional)"
+    - "Mandarin Chinese (Learning / Hobby)"
   metrics:
     experience: "20+ Years (since 1998)"
     cloud_subscriptions_managed: "7000+"
@@ -40,11 +44,29 @@ profile:
     - "Container Orchestration & Microservices: Kubernetes, Helm, Docker"
 ```
 
-My journey started in 1998 as a developer, crafting interactive CDs and web applications. Over two decades, I evolved through sysadmin roles into enterprise DevOps, giving me a unique perspective that bridges application code and high-fidelity cloud infrastructure.
+My journey began in 1998 as a developer building web applications and content engines. Over two decades, my evolution was defined by critical operational milestones:
+- **Foundations & Scalability (GODisruptive & Soluciones Austral):** Designing "State Zero" automated systems and leading high-concurrency war room operations during massive live events (Carrera Bonafont marathon).
+- **Architecture & Microservices (Pilot Solution):** Spearheading monolith-to-microservices migrations and zero-downtime database release strategies.
+- **Enterprise DevOps & Multi-Cloud (EY, Charles Taylor, Aon & HR Acuity):** Automating ~7,000 cloud subscriptions across 2,500 enterprise clients, engineering reusable Terraform IaC modules, and operating mission-critical Azure DevOps CI/CD pipelines.
 
-- **HR Acuity & Charles Taylor:** Standardizing project delivery with reusable Terraform modules and robust Azure DevOps YAML pipelines.
-- **EY (Ernst & Young):** Automation processes and infrastructure guidelines managing ~7,000 application subscriptions across 2,500 enterprise clients, maintaining 180 repositories with Ansible and CI/CD.
-- **Soluciones Austral:** Engineering "State Zero" automated systems for workstation security and deploying business IT infrastructure and management software.
+<p align="center">
+  <img src="https://img.shields.io/badge/Spanish-Native-003366?style=flat-square&logo=google-translate&logoColor=00bcd4" />
+  <img src="https://img.shields.io/badge/English-Fluent_Professional-005b96?style=flat-square&logo=google-translate&logoColor=white" />
+  <img src="https://img.shields.io/badge/Chinese-Learning_Hobby-001f3f?style=flat-square&logo=translate&logoColor=00bcd4" />
+</p>
+
+---
+
+### 📜 Technical Certifications & Foundations
+
+<div align="center">
+  <p>
+    <img src="https://img.shields.io/badge/Microsoft_Certified-Azure_DevOps_Engineer_Expert-0078D7?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+    <img src="https://img.shields.io/badge/Microsoft_Certified-Azure_Solutions_Architect-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+    <img src="https://img.shields.io/badge/HashiCorp_Certified-Terraform_Associate-844FBA?style=for-the-badge&logo=terraform&logoColor=white" />
+  </p>
+  <sub><i>Certified knowledge & continuous hands-on enterprise practice.</i></sub>
+</div>
 
 ---
 
@@ -52,6 +74,14 @@ My journey started in 1998 as a developer, crafting interactive CDs and web appl
 
 <div align="center">
   <img src="timeline-tree.svg" width="100%" alt="Career Timeline Tree" />
+</div>
+
+---
+
+### 📚 DevOps & Engineering Reading Showcase
+
+<div align="center">
+  <img src="reading-list.svg" width="100%" alt="Engineering Reading Showcase" />
 </div>
 
 ---
