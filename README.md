@@ -101,10 +101,6 @@ My journey began in 1998 as a developer building web applications and content en
   <a href="https://www.solucionesaustral.com" target="_blank">
     <img src="https://img.shields.io/badge/Website-solucionesaustral.com-00bcd4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"/>
   </a>
-  &nbsp;
-  <a href="https://github.com/locoxella" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-locoxella-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
-  </a>
 
   <br/><br/>
 
