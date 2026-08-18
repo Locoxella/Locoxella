@@ -118,7 +118,7 @@ My journey began in 1998 as a developer building web applications and content en
 ### 📚 DevOps & Engineering Reading Showcase
 
 <div align="center">
-  <img src="reading-list-0a940885.svg" width="100%" alt="DevOps Reading Showcase: 1. The Phoenix Project by Gene Kim & Kevin Behr (DevOps Three Ways, Flow, Feedback, Silo Breaking), 2. The Goal by Eliyahu Goldratt (Theory of Constraints, Bottleneck Management, Flow Efficiency), 3. The DevOps Handbook by Gene Kim & Jez Humble (Continuous Delivery, CI/CD, Telemetry, Cloud Resilience)" title="DevOps and Engineering Reading Showcase" />
+  <img src="reading-list-598caf87.svg" width="100%" alt="DevOps Reading Showcase: 1. The Phoenix Project (Gene Kim & Kevin Behr), 2. The Goal (Eliyahu Goldratt), 3. The Unicorn Project (Gene Kim), 4. The DevOps Handbook (Gene Kim & Jez Humble)" title="DevOps and Engineering Reading Showcase" />
 </div>
 
 ---
