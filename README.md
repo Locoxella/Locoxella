@@ -77,7 +77,7 @@ My journey began in 1998 as a developer building web applications and content en
 ### 🌲 Career Timeline Tree (20+ Years Journey)
 
 <div align="center">
-  <img src="timeline-tree-v2.svg" width="100%" alt="Career Timeline Tree" />
+  <img src="timeline-tree-v2.svg" width="100%" alt="Career Progression Timeline (1998-Present): HR Acuity (Sr DevOps Engineer, 2024-Present), Aon (Principal DevOps, 2022-2024), Charles Taylor (Senior DevOps, 2021-2022), Ernst & Young (DevOps Engineer, 2020-2021), Pilot Solution (DevOps Specialist, 2019-2020), Soluciones Austral (Founder & Cloud Architect, 2018-Present), GODisruptive (Tech Lead & DevOps, 2014-2018), NGV Communications (Lead Backend Engineer, 2008-2014), Messe Frankfurt & Indexport (Full-Stack Developer, 1998-2008)" title="Leon Alvarez Career Progression Timeline" />
 </div>
 
 ---
@@ -85,7 +85,7 @@ My journey began in 1998 as a developer building web applications and content en
 ### 🛠️ Tech Ecosystem
 
 <div align="center">
-  <img src="tech-ecosystem-93d715d2.svg" width="100%" alt="Tech Ecosystem" />
+  <img src="tech-ecosystem-93d715d2.svg" width="100%" alt="Tech Ecosystem: Cloud Platforms (Azure, AWS, Oracle Cloud, Kubernetes, Docker, Helm), IaC & CI/CD (Terraform, OpenTofu, Ansible, Azure DevOps, GitHub Actions, GitLab CI), Scripting & Databases (Bash, Python, PowerShell, PostgreSQL, SQL, Linux)" title="Tech Stack and Tools" />
 </div>
 
 ---
@@ -95,15 +95,15 @@ My journey began in 1998 as a developer building web applications and content en
 <div align="center">
 
   <a href="https://linkedin.com/in/locoxella" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-locoxella-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-locoxella-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile locoxella" />
   </a>
   &nbsp;
   <a href="mailto:leon@solucionesaustral.com">
-    <img src="https://img.shields.io/badge/Email-leon%40solucionesaustral.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
+    <img src="https://img.shields.io/badge/Email-leon%40solucionesaustral.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email leon@solucionesaustral.com" />
   </a>
   &nbsp;
   <a href="https://www.solucionesaustral.com" target="_blank">
-    <img src="https://img.shields.io/badge/Website-solucionesaustral.com-00bcd4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website"/>
+    <img src="https://img.shields.io/badge/Website-solucionesaustral.com-00bcd4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website solucionesaustral.com" />
   </a>
 
   <br/><br/>
@@ -118,7 +118,7 @@ My journey began in 1998 as a developer building web applications and content en
 ### 📚 DevOps & Engineering Reading Showcase
 
 <div align="center">
-  <img src="reading-list-0a940885.svg" width="100%" alt="Engineering Reading Showcase" />
+  <img src="reading-list-0a940885.svg" width="100%" alt="DevOps Reading Showcase: 1. The Phoenix Project by Gene Kim & Kevin Behr (DevOps Three Ways, Flow, Feedback, Silo Breaking), 2. The Goal by Eliyahu Goldratt (Theory of Constraints, Bottleneck Management, Flow Efficiency), 3. The DevOps Handbook by Gene Kim & Jez Humble (Continuous Delivery, CI/CD, Telemetry, Cloud Resilience)" title="DevOps and Engineering Reading Showcase" />
 </div>
 
 ---
@@ -126,7 +126,7 @@ My journey began in 1998 as a developer building web applications and content en
 ### 📊 GitHub Activity & Metrics
 
 <div align="center">
-  <img src="github-stats-v2.svg" width="100%" alt="GitHub Activity and Metrics" />
+  <img src="github-stats-v2.svg" width="100%" alt="GitHub Metrics and Telemetry: 180+ Repositories Maintained, Public Repos, Multi-Cloud Stack, Top Languages (Python, Shell, PowerShell, Lua, SQL)" title="GitHub Telemetry and Languages Breakdown" />
 </div>
 
 ---
