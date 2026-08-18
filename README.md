@@ -99,11 +99,11 @@ My journey began in 1998 as a developer building web applications and content en
   </a>
   &nbsp;
   <a href="mailto:leon@solucionesaustral.com">
-    <img src="https://img.shields.io/badge/Email-leon%40solucionesaustral.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email leon@solucionesaustral.com" />
+    <img src="https://img.shields.io/badge/Email-leon%40solucionesaustral.com-D14836?style=for-the-badge" alt="Email leon@solucionesaustral.com" />
   </a>
   &nbsp;
   <a href="https://www.solucionesaustral.com" target="_blank">
-    <img src="https://img.shields.io/badge/Website-solucionesaustral.com-00bcd4?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website solucionesaustral.com" />
+    <img src="https://img.shields.io/badge/Website-solucionesaustral.com-00bcd4?style=for-the-badge" alt="Website solucionesaustral.com" />
   </a>
 
   <br/><br/>
