@@ -50,9 +50,9 @@ My journey began in 1998 as a developer building web applications and content en
 - **Enterprise DevOps & Multi-Cloud (EY, Charles Taylor, Aon & HR Acuity):** Automating ~7,000 cloud subscriptions across 2,500 enterprise clients, engineering reusable Terraform IaC modules, and operating mission-critical Azure DevOps CI/CD pipelines.
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Spanish-Native-003366?style=flat-square&logo=google-translate&logoColor=00bcd4" />
-  <img src="https://img.shields.io/badge/English-Fluent_Professional-005b96?style=flat-square&logo=google-translate&logoColor=white" />
-  <img src="https://img.shields.io/badge/Chinese-Learning_Hobby-001f3f?style=flat-square&logo=translate&logoColor=00bcd4" />
+  <img src="https://img.shields.io/badge/Spanish-Native-003366?style=flat-square" alt="Spanish: Native" />
+  <img src="https://img.shields.io/badge/English-Fluent_Professional-005b96?style=flat-square" alt="English: Fluent Professional" />
+  <img src="https://img.shields.io/badge/Chinese-Learning_Hobby-001f3f?style=flat-square" alt="Chinese: Learning Hobby" />
 </p>
 
 ---
