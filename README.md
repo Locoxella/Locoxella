@@ -61,11 +61,15 @@ My journey began in 1998 as a developer building web applications and content en
 
 <div align="center">
   <p>
-    <img src="https://img.shields.io/badge/Microsoft_Certified-Azure_DevOps_Engineer_Expert-0078D7?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-    <img src="https://img.shields.io/badge/Microsoft_Certified-Azure_Solutions_Architect-0089D6?style=for-the-badge&logo=microsoftazure&logoColor=white" />
-    <img src="https://img.shields.io/badge/HashiCorp_Certified-Terraform_Associate-844FBA?style=for-the-badge&logo=terraform&logoColor=white" />
+    <a href="https://www.credly.com/badges/0070ecaf-0478-41a5-aae5-619b4aadac64" target="_blank">
+      <img src="https://img.shields.io/badge/Microsoft_Certified-Azure_Fundamentals-0078D7?style=for-the-badge&logo=microsoftazure&logoColor=white" alt="Microsoft Certified: Azure Fundamentals" />
+    </a>
+    &nbsp;
+    <a href="https://www.credly.com/badges/d8e2ad4e-a40c-4b2d-97c8-0ea6482598f6" target="_blank">
+      <img src="https://img.shields.io/badge/HashiCorp_Certified-Terraform_Associate_(002)-844FBA?style=for-the-badge&logo=terraform&logoColor=white" alt="HashiCorp Certified: Terraform Associate (002)" />
+    </a>
   </p>
-  <sub><i>Certified knowledge & continuous hands-on enterprise practice.</i></sub>
+  <sub><i>Certified knowledge & continuous hands-on enterprise practice. Click badges to verify on Credly.</i></sub>
 </div>
 
 ---
@@ -114,7 +118,7 @@ My journey began in 1998 as a developer building web applications and content en
 ### 📚 DevOps & Engineering Reading Showcase
 
 <div align="center">
-  <img src="reading-list-942827e0.svg" width="100%" alt="Engineering Reading Showcase" />
+  <img src="reading-list-0a940885.svg" width="100%" alt="Engineering Reading Showcase" />
 </div>
 
 ---
