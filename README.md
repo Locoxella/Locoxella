@@ -129,19 +129,9 @@ My journey began in 1998 as a developer building web applications and content en
   <img src="github-stats-v2.svg" width="100%" alt="GitHub Metrics and Telemetry: 180+ Repositories Maintained, Public Repos, Multi-Cloud Stack, Top Languages (Python, Shell, PowerShell, Lua, SQL)" title="GitHub Telemetry and Languages Breakdown" />
 </div>
 
----
-
-### 🐍 Contribution Matrix
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/locoxella/locoxella/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/locoxella/locoxella/output/github-contribution-grid-snake.svg">
-    <img alt="GitHub Contribution Grid Snake" src="https://raw.githubusercontent.com/locoxella/locoxella/output/github-contribution-grid-snake-dark.svg" width="100%">
-  </picture>
-
   <br/><br/>
   
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00bcd4,50:003366,100:001F3F&height=100&section=footer" width="100%"/>
 
 </div>
+
