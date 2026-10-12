@@ -57,14 +57,14 @@
       <text x="20" y="4" class="lang-name">Python</text>
       <rect x="170" y="-6" width="160" height="8" rx="4" fill="#1A2634" />
       <rect x="170" y="-6" width="73" height="8" rx="4" fill="#3776AB" />
-      <text x="375" y="4" text-anchor="end" class="lang-pct">46.2%</text>
+      <text x="375" y="4" text-anchor="end" class="lang-pct">46.1%</text>
     </g>
     <g transform="translate(25, 90)">
       <circle cx="6" cy="0" r="4" fill="#89E051" />
       <text x="20" y="4" class="lang-name">Shell</text>
       <rect x="170" y="-6" width="160" height="8" rx="4" fill="#1A2634" />
       <rect x="170" y="-6" width="72" height="8" rx="4" fill="#89E051" />
-      <text x="375" y="4" text-anchor="end" class="lang-pct">45.2%</text>
+      <text x="375" y="4" text-anchor="end" class="lang-pct">45.3%</text>
     </g>
     <g transform="translate(25, 118)">
       <circle cx="6" cy="0" r="4" fill="#5391FE" />
