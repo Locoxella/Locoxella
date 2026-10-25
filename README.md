@@ -47,7 +47,7 @@ profile:
 My journey began in 1998 as a developer building web applications and content engines. Over two decades, my evolution was defined by critical operational milestones:
 - **Foundations & Scalability (GODisruptive & Soluciones Austral):** Designing "State Zero" automated systems and leading high-concurrency war room operations during massive live events (Carrera Bonafont marathon).
 - **Architecture & Microservices (Pilot Solution):** Spearheading monolith-to-microservices migrations and zero-downtime database release strategies.
-- **Enterprise DevOps & Multi-Cloud (EY, Charles Taylor, Aon & HR Acuity):** Automating ~7,000 cloud subscriptions across 2,500 enterprise clients, engineering reusable Terraform IaC modules, and operating mission-critical Azure DevOps CI/CD pipelines.
+- **Enterprise DevOps & Multi-Cloud (EY, Charles Taylor, Aon, HR Acuity & Jack Henry):** Automating ~7,000 cloud subscriptions across 2,500 enterprise clients, engineering reusable Terraform IaC modules, migrating ADO to GitHub Actions, and designing ArgoCD GitOps workflows.
 
 <p align="center">
   <img src="https://img.shields.io/badge/Spanish-Native-003366?style=flat-square" alt="Spanish: Native" />
@@ -77,7 +77,7 @@ My journey began in 1998 as a developer building web applications and content en
 ### 🌲 Career Timeline Tree (20+ Years Journey)
 
 <div align="center">
-  <img src="timeline-tree-v2.svg" width="100%" alt="Career Progression Timeline (1998-Present): HR Acuity (Sr DevOps Engineer, 2024-Present), Aon (Principal DevOps, 2022-2024), Charles Taylor (Senior DevOps, 2021-2022), Ernst & Young (DevOps Engineer, 2020-2021), Pilot Solution (DevOps Specialist, 2019-2020), Soluciones Austral (Founder & Cloud Architect, 2018-Present), GODisruptive (Tech Lead & DevOps, 2014-2018), NGV Communications (Lead Backend Engineer, 2008-2014), Messe Frankfurt & Indexport (Full-Stack Developer, 1998-2008)" title="Leon Alvarez Career Progression Timeline" />
+  <img src="timeline-tree-v3.svg" width="100%" alt="Career Progression Timeline (1998-Present): Jack Henry (DevOps Engineer, 2025-Present), HR Acuity (DevOps Engineer, 2023-2025), Aon (Principal DevOps, 2022-2024), Charles Taylor (Senior DevOps, 2021-2022), Ernst & Young (DevOps Engineer, 2020-2021), Pilot Solution (DevOps Specialist, 2019-2020), Soluciones Austral (Founder & Cloud Architect, 2018-Present), GODisruptive (Tech Lead & DevOps, 2014-2018), NGV Communications (Lead Backend Engineer, 2008-2014), Messe Frankfurt & Indexport (Full-Stack Developer, 1998-2008)" title="Leon Alvarez Career Progression Timeline" />
 </div>
 
 ---
