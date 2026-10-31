@@ -76,7 +76,7 @@ My journey began in 1998 as a developer building web applications and content en
 ### 🌲 Career Timeline Tree (20+ Years Journey)
 
 <div align="center">
-  <img src="assets/timeline-tree.svg" width="100%" alt="Career Progression Timeline (1998-Present): Jack Henry (DevOps Engineer, 2025-Present), HR Acuity (DevOps Engineer, 2023-2025), Aon (Principal DevOps, 2022-2024), Charles Taylor (Senior DevOps, 2021-2022), Ernst & Young (DevOps Engineer, 2020-2021), Pilot Solution (DevOps Specialist, 2019-2020), Soluciones Austral (Founder & Cloud Architect, 2018-Present), GODisruptive (Tech Lead & DevOps, 2014-2018), NGV Communications (Lead Backend Engineer, 2008-2014), Messe Frankfurt & Indexport (Full-Stack Developer, 1998-2008)" title="Leon Alvarez Career Progression Timeline" />
+  <img src="assets/timeline-tree.svg" width="100%" alt="Career Progression Timeline (1998-Present): Jack Henry (DevOps Engineer, Nov 2025–Present), HR Acuity (DevOps Engineer, Dec 2023–Nov 2025), Aon (DevOps Engineer, Dec 2022–Dec 2023), Charles Taylor InsureTech (DevOps Engineer, Jun 2021–Dec 2022), EY / Ernst & Young (DevOps Engineer, Jun 2018–Jun 2021), Pilot Solution (DevOps / Sysadmin, Feb 2016–Jun 2018), Soluciones Austral (Responsable / Tech Lead, Jun 2001–Feb 2016), GODisruptive (Developer / Sysadmin, Mar 2012–Nov 2015), NGV Communications (Developer, Jun 2005–Feb 2009), Messe Frankfurt Argentina (Developer, Dec 1998–Jun 2001)" title="Leon Alvarez Career Progression Timeline" />
 </div>
 
 ---
@@ -125,7 +125,7 @@ My journey began in 1998 as a developer building web applications and content en
 ### 📊 GitHub Activity & Metrics
 
 <div align="center">
-  <img src="assets/github-stats.svg" width="100%" alt="GitHub Metrics and Telemetry: 180+ Repositories Maintained, Public Repos, Multi-Cloud Stack, Top Languages (Python, Shell, PowerShell, Lua, SQL)" title="GitHub Telemetry and Languages Breakdown" />
+  <img src="assets/github-stats.svg" width="100%" alt="GitHub Metrics and Telemetry: 180+ Repositories Maintained, Public Repos: 18, Multi-Cloud Stack, Top Languages: Python, Shell, PowerShell, JavaScript, Tape" title="GitHub Telemetry and Languages Breakdown" />
 </div>
 
 <br/><br/>

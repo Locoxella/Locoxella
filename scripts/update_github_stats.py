@@ -21,7 +21,7 @@ def generate_svg():
 
     # Fetch User Profile
     user_data = fetch_json(f'https://api.github.com/users/{username}', token)
-    public_repos = user_data.get('public_repos', 13) if user_data else 13
+    public_repos = user_data.get('public_repos', 18) if user_data else 18
 
     # Fetch Repositories with pagination
     repos_data = []
