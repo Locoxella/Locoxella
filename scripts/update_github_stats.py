@@ -23,9 +23,19 @@ def generate_svg():
     user_data = fetch_json(f'https://api.github.com/users/{username}', token)
     public_repos = user_data.get('public_repos', 13) if user_data else 13
 
-    # Fetch Repositories
-    repos_data = fetch_json(f'https://api.github.com/users/{username}/repos?per_page=100', token) or []
-    
+    # Fetch Repositories with pagination
+    repos_data = []
+    page = 1
+    while True:
+        url = f'https://api.github.com/users/{username}/repos?per_page=100&page={page}'
+        batch = fetch_json(url, token)
+        if not batch:
+            break
+        repos_data.extend(batch)
+        if len(batch) < 100:
+            break
+        page += 1
+
     lang_bytes = {}
     for repo in repos_data:
         if repo.get('fork'):
@@ -52,13 +62,25 @@ def generate_svg():
         'Nginx': '#009639',
         'SQL': '#003B57',
         'JavaScript': '#F7DF1E',
-        'TypeScript': '#3178C6'
+        'TypeScript': '#3178C6',
+        'Tape': '#FF5F87',
+        'YAML': '#CB171E',
+        'Bicep': '#0078D4',
+        'C#': '#239120',
+        'C++': '#F34B7D',
+        'C': '#555555',
+        'HTML': '#E34F26',
+        'CSS': '#1572B6',
+        'Makefile': '#427819',
+        'Markdown': '#083FA1',
+        'Jinja': '#B41717',
+        'Jsonnet': '#005B96'
     }
 
     # Process Top Languages (max 5)
     total_bytes = sum(lang_bytes.values())
     top_langs = sorted(lang_bytes.items(), key=lambda x: x[1], reverse=True)[:5]
-    
+
     if not top_langs:
         top_langs = [('PowerShell', 59), ('Shell', 41)]
         total_bytes = 100
@@ -69,9 +91,9 @@ def generate_svg():
     for lang, count in top_langs:
         pct = (count / total_bytes * 100) if total_bytes > 0 else 0
         color = lang_colors.get(lang, '#00BCD4')
-        bar_w = max(int(pct * 1.6), 6)
+        bar_w = min(160, max(int(pct * 1.6), 6))
         pct_str = f"{pct:.1f}%"
-        
+
         row = f'''    <g transform="translate(25, {y_pos})">
       <circle cx="6" cy="0" r="4" fill="{color}" />
       <text x="20" y="4" class="lang-name">{lang}</text>
@@ -143,10 +165,12 @@ def generate_svg():
 </svg>'''
 
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-    output_path = os.path.join(base_dir, 'github-stats-v2.svg')
+    assets_dir = os.path.join(base_dir, 'assets')
+    os.makedirs(assets_dir, exist_ok=True)
+    output_path = os.path.join(assets_dir, 'github-stats.svg')
     with open(output_path, 'w', encoding='utf-8') as f:
-        f.write(svg_content)
-    print("Successfully generated live github-stats-v2.svg!")
+        f.write(svg_content + '\n')
+    print("Successfully generated live assets/github-stats.svg!")
 
 if __name__ == '__main__':
     generate_svg()

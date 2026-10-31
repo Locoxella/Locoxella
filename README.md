@@ -4,15 +4,13 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:001F3F,50:003366,100:00bcd4&height=220&section=header&text=LEON%20ALVAREZ&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Software%20and%20DevOps%20Engineer%20%7C%20Infrastructure%20as%20Craft&descSize=16&descAlignY=62&descAlign=50" width="100%" alt="Header Banner"/>
 
   <!-- TYPING SVG SUBTITLE -->
-  <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=00BCD4&center=true&vCenter=true&multiline=false&width=650&height=50&lines=Infrastructure+as+Craft;20%2B+Years+Building+Reliable+Cloud+Systems;IaC+%7C+Azure+%7C+AWS+%7C+Kubernetes+%7C+DevOps;From+Developer+to+Enterprise+Infrastructure" alt="Typing SVG" />
-  </a>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=3000&pause=1000&color=00BCD4&center=true&vCenter=true&multiline=false&width=650&height=50&lines=Infrastructure+as+Craft;20%2B+Years+Building+Reliable+Cloud+Systems;IaC+%7C+Azure+%7C+AWS+%7C+Kubernetes+%7C+DevOps;From+Developer+to+Enterprise+Infrastructure" alt="Typing SVG" />
 
   <!-- PROFILE SUMMARY BADGES / STATUS -->
   <p align="center">
-    <img src="https://img.shields.io/badge/Experience-20%2B_Years-003366?style=for-the-badge&logo=clock&logoColor=00bcd4" />
-    <img src="https://img.shields.io/badge/Enterprise-7000%2B_Cloud_Subscriptions-001f3f?style=for-the-badge&logo=azuredevops&logoColor=00bcd4" />
-    <img src="https://img.shields.io/badge/Focus-IaC_%26_Resilient_Cloud_Platforms-005b96?style=for-the-badge&logo=terraform&logoColor=white" />
+    <img src="https://img.shields.io/badge/Experience-20%2B_Years-003366?style=for-the-badge&logo=clock&logoColor=00bcd4" alt="Experience: 20+ Years" />
+    <img src="https://img.shields.io/badge/Enterprise-7000%2B_Cloud_Subscriptions-001f3f?style=for-the-badge&logo=azuredevops&logoColor=00bcd4" alt="Enterprise: 7000+ Cloud Subscriptions" />
+    <img src="https://img.shields.io/badge/Focus-IaC_%26_Resilient_Cloud_Platforms-005b96?style=for-the-badge&logo=terraform&logoColor=white" alt="Focus: IaC & Resilient Cloud Platforms" />
   </p>
 
 </div>
@@ -45,6 +43,7 @@ profile:
 ```
 
 My journey began in 1998 as a developer building web applications and content engines. Over two decades, my evolution was defined by critical operational milestones:
+
 - **Foundations & Scalability (GODisruptive & Soluciones Austral):** Designing "State Zero" automated systems and leading high-concurrency war room operations during massive live events (Carrera Bonafont marathon).
 - **Architecture & Microservices (Pilot Solution):** Spearheading monolith-to-microservices migrations and zero-downtime database release strategies.
 - **Enterprise DevOps & Multi-Cloud (EY, Charles Taylor, Aon, HR Acuity & Jack Henry):** Automating ~7,000 cloud subscriptions across 2,500 enterprise clients, engineering reusable Terraform IaC modules, migrating ADO to GitHub Actions, and designing ArgoCD GitOps workflows.
@@ -77,7 +76,7 @@ My journey began in 1998 as a developer building web applications and content en
 ### 🌲 Career Timeline Tree (20+ Years Journey)
 
 <div align="center">
-  <img src="timeline-tree-v3.svg" width="100%" alt="Career Progression Timeline (1998-Present): Jack Henry (DevOps Engineer, 2025-Present), HR Acuity (DevOps Engineer, 2023-2025), Aon (Principal DevOps, 2022-2024), Charles Taylor (Senior DevOps, 2021-2022), Ernst & Young (DevOps Engineer, 2020-2021), Pilot Solution (DevOps Specialist, 2019-2020), Soluciones Austral (Founder & Cloud Architect, 2018-Present), GODisruptive (Tech Lead & DevOps, 2014-2018), NGV Communications (Lead Backend Engineer, 2008-2014), Messe Frankfurt & Indexport (Full-Stack Developer, 1998-2008)" title="Leon Alvarez Career Progression Timeline" />
+  <img src="assets/timeline-tree.svg" width="100%" alt="Career Progression Timeline (1998-Present): Jack Henry (DevOps Engineer, 2025-Present), HR Acuity (DevOps Engineer, 2023-2025), Aon (Principal DevOps, 2022-2024), Charles Taylor (Senior DevOps, 2021-2022), Ernst & Young (DevOps Engineer, 2020-2021), Pilot Solution (DevOps Specialist, 2019-2020), Soluciones Austral (Founder & Cloud Architect, 2018-Present), GODisruptive (Tech Lead & DevOps, 2014-2018), NGV Communications (Lead Backend Engineer, 2008-2014), Messe Frankfurt & Indexport (Full-Stack Developer, 1998-2008)" title="Leon Alvarez Career Progression Timeline" />
 </div>
 
 ---
@@ -85,7 +84,7 @@ My journey began in 1998 as a developer building web applications and content en
 ### 🛠️ Tech Ecosystem
 
 <div align="center">
-  <img src="tech-ecosystem-93d715d2.svg" width="100%" alt="Tech Ecosystem: Cloud Platforms (Azure, AWS, Oracle Cloud, Kubernetes, Docker, Helm), IaC & CI/CD (Terraform, OpenTofu, Ansible, Azure DevOps, GitHub Actions, GitLab CI), Scripting & Databases (Bash, Python, PowerShell, PostgreSQL, SQL, Linux)" title="Tech Stack and Tools" />
+  <img src="assets/tech-ecosystem.svg" width="100%" alt="Tech Ecosystem: Cloud Platforms (Azure, AWS, Oracle Cloud, Kubernetes, Docker, Helm), IaC & CI/CD (Terraform, OpenTofu, Ansible, Azure DevOps, GitHub Actions, GitLab CI), Scripting & Databases (Bash, Python, PowerShell, PostgreSQL, SQL, Linux)" title="Tech Stack and Tools" />
 </div>
 
 ---
@@ -118,7 +117,7 @@ My journey began in 1998 as a developer building web applications and content en
 ### 📚 DevOps & Engineering Reading Showcase
 
 <div align="center">
-  <img src="reading-list-e77d1575.svg" width="100%" alt="DevOps Reading Showcase: 1. The Phoenix Project (Gene Kim & Kevin Behr), 2. The Goal (Eliyahu Goldratt), 3. The Unicorn Project (Gene Kim), 4. The DevOps Handbook (Gene Kim & Jez Humble)" title="DevOps and Engineering Reading Showcase" />
+  <img src="assets/reading-list.svg" width="100%" alt="DevOps Reading Showcase: 1. The Phoenix Project (Gene Kim & Kevin Behr), 2. The Goal (Eliyahu Goldratt), 3. The Unicorn Project (Gene Kim), 4. The DevOps Handbook (Gene Kim & Jez Humble)" title="DevOps and Engineering Reading Showcase" />
 </div>
 
 ---
@@ -126,12 +125,11 @@ My journey began in 1998 as a developer building web applications and content en
 ### 📊 GitHub Activity & Metrics
 
 <div align="center">
-  <img src="github-stats-v2.svg" width="100%" alt="GitHub Metrics and Telemetry: 180+ Repositories Maintained, Public Repos, Multi-Cloud Stack, Top Languages (Python, Shell, PowerShell, Lua, SQL)" title="GitHub Telemetry and Languages Breakdown" />
+  <img src="assets/github-stats.svg" width="100%" alt="GitHub Metrics and Telemetry: 180+ Repositories Maintained, Public Repos, Multi-Cloud Stack, Top Languages (Python, Shell, PowerShell, Lua, SQL)" title="GitHub Telemetry and Languages Breakdown" />
 </div>
 
-  <br/><br/>
-  
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00bcd4,50:003366,100:001F3F&height=100&section=footer" width="100%"/>
+<br/><br/>
 
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00bcd4,50:003366,100:001F3F&height=100&section=footer" width="100%" alt="Footer Banner" />
 </div>
-
