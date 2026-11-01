@@ -56,36 +56,36 @@
       <circle cx="6" cy="0" r="4" fill="#3776AB" />
       <text x="20" y="4" class="lang-name">Python</text>
       <rect x="170" y="-6" width="160" height="8" rx="4" fill="#1A2634" />
-      <rect x="170" y="-6" width="85" height="8" rx="4" fill="#3776AB" />
-      <text x="375" y="4" text-anchor="end" class="lang-pct">53.4%</text>
+      <rect x="170" y="-6" width="93" height="8" rx="4" fill="#3776AB" />
+      <text x="375" y="4" text-anchor="end" class="lang-pct">58.2%</text>
     </g>
     <g transform="translate(25, 90)">
       <circle cx="6" cy="0" r="4" fill="#89E051" />
       <text x="20" y="4" class="lang-name">Shell</text>
       <rect x="170" y="-6" width="160" height="8" rx="4" fill="#1A2634" />
-      <rect x="170" y="-6" width="61" height="8" rx="4" fill="#89E051" />
-      <text x="375" y="4" text-anchor="end" class="lang-pct">38.5%</text>
+      <rect x="170" y="-6" width="55" height="8" rx="4" fill="#89E051" />
+      <text x="375" y="4" text-anchor="end" class="lang-pct">34.4%</text>
     </g>
     <g transform="translate(25, 118)">
       <circle cx="6" cy="0" r="4" fill="#5391FE" />
       <text x="20" y="4" class="lang-name">PowerShell</text>
       <rect x="170" y="-6" width="160" height="8" rx="4" fill="#1A2634" />
       <rect x="170" y="-6" width="7" height="8" rx="4" fill="#5391FE" />
-      <text x="375" y="4" text-anchor="end" class="lang-pct">5.0%</text>
+      <text x="375" y="4" text-anchor="end" class="lang-pct">4.6%</text>
     </g>
     <g transform="translate(25, 146)">
       <circle cx="6" cy="0" r="4" fill="#F7DF1E" />
       <text x="20" y="4" class="lang-name">JavaScript</text>
       <rect x="170" y="-6" width="160" height="8" rx="4" fill="#1A2634" />
       <rect x="170" y="-6" width="6" height="8" rx="4" fill="#F7DF1E" />
-      <text x="375" y="4" text-anchor="end" class="lang-pct">1.7%</text>
+      <text x="375" y="4" text-anchor="end" class="lang-pct">1.6%</text>
     </g>
     <g transform="translate(25, 174)">
       <circle cx="6" cy="0" r="4" fill="#FF5F87" />
       <text x="20" y="4" class="lang-name">Tape</text>
       <rect x="170" y="-6" width="160" height="8" rx="4" fill="#1A2634" />
       <rect x="170" y="-6" width="6" height="8" rx="4" fill="#FF5F87" />
-      <text x="375" y="4" text-anchor="end" class="lang-pct">0.8%</text>
+      <text x="375" y="4" text-anchor="end" class="lang-pct">0.7%</text>
     </g>
   </g>
 </svg>
