@@ -76,7 +76,7 @@ My journey began in 1998 as a developer building web applications and content en
 ### 🌲 Career Timeline Tree (20+ Years Journey)
 
 <div align="center">
-  <img src="assets/timeline-tree.svg" width="100%" alt="Career Progression Timeline (1998-Present): Jack Henry (DevOps Engineer, Nov 2025–Present), HR Acuity (DevOps Engineer, Dec 2023–Nov 2025), Aon (DevOps Engineer, Dec 2022–Dec 2023), Charles Taylor InsureTech (DevOps Engineer, Jun 2021–Dec 2022), EY / Ernst & Young (DevOps Engineer, Jun 2018–Jun 2021), Pilot Solution (DevOps / Sysadmin, Feb 2016–Jun 2018), Soluciones Austral (Responsable / Tech Lead, Jun 2001–Feb 2016), GODisruptive (Developer / Sysadmin, Mar 2012–Nov 2015), NGV Communications (Developer, Jun 2005–Feb 2009), Messe Frankfurt Argentina (Developer, Dec 1998–Jun 2001)" title="Leon Alvarez Career Progression Timeline" />
+  <img src="assets/timeline-tree.svg" width="100%" alt="Career Progression Timeline (1998-Present): Jack Henry (DevOps Engineer, Nov 2025–Present), HR Acuity (DevOps Engineer, Dec 2023–Nov 2025), Aon (DevOps Engineer, Dec 2022–Dec 2023), Charles Taylor InsureTech (DevOps Engineer, Jun 2021–Dec 2022), EY / Ernst & Young (DevOps Engineer, Jun 2018–Jun 2021), Pilot Solution (DevOps / Sysadmin, Feb 2016–Jun 2018), GODisruptive (Developer / Sysadmin, Mar 2012–Nov 2015), NGV Communications (Developer, Jun 2005–Feb 2009), Soluciones Austral (Responsable / Tech Lead, Jun 2001–Present), Messe Frankfurt Argentina (Developer, Dec 1998–Jun 2001)" title="Leon Alvarez Career Progression Timeline" />
 </div>
 
 ---
