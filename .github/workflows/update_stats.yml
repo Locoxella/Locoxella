@@ -16,6 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
 
     steps:
       - name: Checkout repository
@@ -33,6 +34,8 @@ jobs:
           python scripts/update_github_stats.py
 
       - name: Commit & Push updated telemetry SVG
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
@@ -41,5 +44,13 @@ jobs:
             echo "No stats changes detected."
           else
             git commit -m "chore(telemetry): auto-update GitHub stats & languages [skip ci]"
-            git push origin main
+            if ! git push origin main 2>/dev/null; then
+              echo "Direct push blocked by branch protection. Pushing to branch and creating PR..."
+              BRANCH="telemetry/update-$(date +%Y%m%d-%H%M%S)"
+              git checkout -b "$BRANCH"
+              git push origin "$BRANCH"
+              gh pr create --title "chore(telemetry): auto-update GitHub stats & languages" \
+                           --body "Automated daily update of profile GitHub telemetry & stats SVG." \
+                           --base main --head "$BRANCH" || true
+            fi
           fi
