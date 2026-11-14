@@ -250,11 +250,13 @@
     <rect x="510" y="10" width="380" height="95" class="card-bg" fill="url(#cardGrad)" />
     <rect x="510" y="10" width="380" height="95" class="card-glow" />
     <rect x="525" y="20" width="40" height="40" class="logo-frame" />
-    <g transform="translate(526, 21) scale(0.59375)" clip-path="url(#logoClip)">
-      <rect width="64" height="64" rx="8" fill="#FFFFFF"/>
-      <rect x="12" y="15" width="40" height="27" rx="3" stroke="#0B0B0D" stroke-width="3.2" fill="none"/>
-      <path d="M22 49h20M32 42v7" stroke="#0B0B0D" stroke-width="3.2" stroke-linecap="round"/>
-      <path d="M23 25l5 4-5 4M31 33h8" stroke="#0B0B0D" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <g transform="translate(526, 21)" clip-path="url(#logoClip)">
+      <g transform="scale(0.59375)">
+        <rect width="64" height="64" rx="8" fill="#FFFFFF"/>
+        <rect x="12" y="15" width="40" height="27" rx="3" stroke="#0B0B0D" stroke-width="3.2" fill="none"/>
+        <path d="M22 49h20M32 42v7" stroke="#0B0B0D" stroke-width="3.2" stroke-linecap="round"/>
+        <path d="M23 25l5 4-5 4M31 33h8" stroke="#0B0B0D" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+      </g>
     </g>
     <text x="575" y="36" class="title-text">Internet Café</text>
     <text x="575" y="54" class="role-text">IT Technician &amp; Customer Support</text>
