@@ -44,7 +44,7 @@ profile:
 
 My journey began in 1998 as a developer building web applications and content engines. Over two decades, my evolution was defined by critical operational milestones:
 
-- **Foundations & Scalability (GODisruptive & Soluciones Austral):** Designing "State Zero" automated systems and leading high-concurrency war room operations during massive live events (Carrera Bonafont marathon).
+- **Foundations & Scalability (Internet Café, Soluciones Austral & GODisruptive):** Engineered clean-boot, billing, and disk-imaging automation for ~50 workstations; built custom websites and web/email servers for small businesses; and led high-concurrency war room operations during massive live events (Carrera Bonafont marathon).
 - **Architecture & Microservices (Pilot Solution):** Spearheading monolith-to-microservices migrations and zero-downtime database release strategies.
 - **Enterprise DevOps & Multi-Cloud (EY, Charles Taylor, Aon, HR Acuity & Jack Henry):** Automating ~7,000 cloud subscriptions across 2,500 enterprise clients, engineering reusable Terraform IaC modules, migrating ADO to GitHub Actions, and designing ArgoCD GitOps workflows.
 
@@ -76,7 +76,7 @@ My journey began in 1998 as a developer building web applications and content en
 ### 🌲 Career Timeline Tree (20+ Years Journey)
 
 <div align="center">
-  <img src="assets/timeline-tree.svg" width="100%" alt="Career Progression Timeline (1998-Present): Jack Henry (DevOps Engineer, Nov 2025–Present), HR Acuity (DevOps Engineer, Dec 2023–Nov 2025), Aon (DevOps Engineer, Dec 2022–Dec 2023), Charles Taylor InsureTech (DevOps Engineer, Jun 2021–Dec 2022), EY / Ernst & Young (DevOps Engineer, Jun 2018–Jun 2021), Pilot Solution (DevOps / Sysadmin, Feb 2016–Jun 2018), GODisruptive (Developer / Sysadmin, Mar 2012–Nov 2015), NGV Communications (Developer, Jun 2005–Feb 2009), Soluciones Austral (Responsable / Tech Lead, Jun 2001–Present), Messe Frankfurt Argentina (Developer, Dec 1998–Jun 2001)" title="Leon Alvarez Career Progression Timeline" />
+  <img src="assets/timeline-tree.svg" width="100%" alt="Career Progression Timeline (1998-Present): Jack Henry (DevOps Engineer, Nov 2025–Present), HR Acuity (DevOps Engineer, Dec 2023–Nov 2025), Aon (DevOps Engineer, Dec 2022–Dec 2023), Charles Taylor InsureTech (DevOps Engineer, Jun 2021–Dec 2022), EY / Ernst & Young (DevOps Engineer, Jun 2018–Jun 2021), Pilot Solution (DevOps / Sysadmin, Feb 2016–Jun 2018), GODisruptive (Developer / Sysadmin, Mar 2012–Nov 2015), Soluciones Austral (Founder & IT Consultant, Feb 2009–Present), NGV Communications (Developer, Jun 2005–Feb 2009), Internet Café (IT Technician & Customer Support, Apr 2002–Mar 2005), Messe Frankfurt Argentina (Developer, Dec 1998–Jun 2001)" title="Leon Alvarez Career Progression Timeline" />
 </div>
 
 ---
